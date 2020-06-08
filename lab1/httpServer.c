@@ -6,7 +6,7 @@
 #include<arpa/inet.h>
 //创建一个模拟的http server
 //绑定小端口号(<=1024) 需要root权限才能正常运行
-//param(host,)
+//param(host,port)
 
 int main(int argc,char *argv[],char **env)
 {
